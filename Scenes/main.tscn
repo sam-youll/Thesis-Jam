@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://b8kv86mjkbx8c"]
+
+[ext_resource type="PackedScene" uid="uid://cv7ildb15153q" path="res://Scenes/gerald.tscn" id="1_n0lx7"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+anchor_mode = 0
+
+[node name="Gerald" parent="." instance=ExtResource("1_n0lx7")]
+position = Vector2(313, 355)

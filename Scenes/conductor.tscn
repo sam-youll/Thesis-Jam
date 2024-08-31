@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://dac0hk3y3e3y5"]
+
+[ext_resource type="Script" path="res://Scripts/conductor.gd" id="1_qhkit"]
+
+[node name="Conductor" type="Node"]
+script = ExtResource("1_qhkit")
+
+[node name="FmodBankLoader" type="FmodBankLoader" parent="."]
+
+[node name="FmodEventEmitter2D" type="FmodEventEmitter2D" parent="."]
+event_guid = "{00000017-0000-0000-0e00-000041040000}"

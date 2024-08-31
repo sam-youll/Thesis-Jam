@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://cv7ildb15153q"]
+
+[ext_resource type="Texture2D" uid="uid://c65td11osn7lr" path="res://Assets/Sprites/gerald.png" id="1_gsoxt"]
+[ext_resource type="Script" path="res://Scripts/gerald.gd" id="1_mrl7f"]
+
+[node name="Gerald" type="Sprite2D"]
+position = Vector2(657, 345)
+texture = ExtResource("1_gsoxt")
+script = ExtResource("1_mrl7f")
