@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{a21625d1-79a8-45ab-9bc3-7d31046b2aa8}">
 		<property name="name">
-			<value>Player 2 Ch</value>
+			<value>P1</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>
@@ -30,6 +30,9 @@
 		</relationship>
 		<relationship name="parameters">
 			<destination>{49d65212-0677-4567-a64f-897539793870}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{5ae38f0f-90c8-4cb7-b407-43e4faf807b4}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{ef93799f-74bf-4b7d-8d57-fe480fc66236}">

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{d6e9d130-f33d-4e94-a23f-73f022889b86}">
 		<property name="name">
-			<value>Player 1 Sounds</value>
+			<value>P2</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>
@@ -33,6 +33,9 @@
 		</relationship>
 		<relationship name="parameters">
 			<destination>{610508a7-7362-458f-837f-145a11692281}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{5ae38f0f-90c8-4cb7-b407-43e4faf807b4}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{1371d145-649d-4219-b06b-31daca258c62}">

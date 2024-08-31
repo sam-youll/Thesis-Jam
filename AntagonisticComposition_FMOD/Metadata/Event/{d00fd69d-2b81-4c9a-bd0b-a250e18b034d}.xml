@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{d00fd69d-2b81-4c9a-bd0b-a250e18b034d}">
 		<property name="name">
-			<value>Player Incorrect Feedback</value>
+			<value>Error</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>
@@ -30,6 +30,9 @@
 		</relationship>
 		<relationship name="parameters">
 			<destination>{f88868d4-d9f2-4c38-8910-9073fdba0994}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{5ae38f0f-90c8-4cb7-b407-43e4faf807b4}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{fc54c75c-e32d-4522-8123-f55c73ed1936}">
