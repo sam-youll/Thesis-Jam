@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{d398cc29-4474-48d7-90a2-600a817b5c43}">
+		<property name="assetPath">
+			<value>rhythmgame_rhythmgame_Chords.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>8</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{06a13875-4719-4b8f-87cf-c3669f4a47a6}</destination>
+		</relationship>
+	</object>
+</objects>
