@@ -1,0 +1,46 @@
+[gd_scene load_steps=5 format=3 uid="uid://bl1at8nmh16kr"]
+
+[ext_resource type="Texture2D" uid="uid://7lr4m4u0ol8d" path="res://Assets/Sprites/bg thesis jaaaaaaaaaaam.png" id="1_04lxm"]
+[ext_resource type="Texture2D" uid="uid://c65td11osn7lr" path="res://Assets/Sprites/gerald.png" id="1_12vtf"]
+[ext_resource type="FontFile" uid="uid://bgp3biy1f05kw" path="res://Assets/Fonts/ALAGARD.TTF" id="3_bih4x"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_ggpap"]
+font = ExtResource("3_bih4x")
+font_size = 200
+
+[node name="Start Screen" type="Node2D"]
+
+[node name="BgThesisJaaaaaaaaaaam" type="Sprite2D" parent="."]
+position = Vector2(574.25, 322.5)
+scale = Vector2(1.9714, 1.99074)
+texture = ExtResource("1_04lxm")
+
+[node name="Gerald" type="Sprite2D" parent="."]
+position = Vector2(585, 330)
+scale = Vector2(2.595, 2.595)
+texture = ExtResource("1_12vtf")
+
+[node name="Title" type="Label" parent="."]
+offset_left = 136.0
+offset_top = 85.0
+offset_right = 2409.0
+offset_bottom = 846.0
+scale = Vector2(0.385, 0.385)
+text = "ANTAGONISTIC COMPOSITION"
+label_settings = SubResource("LabelSettings_ggpap")
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="bottom text" type="Label" parent="Title"]
+offset_left = 737.662
+offset_top = 1015.58
+offset_right = 3010.66
+offset_bottom = 1776.58
+scale = Vector2(0.385, 0.385)
+text = "featuring gerald 1
+and gerald 2
+
+press space to start"
+label_settings = SubResource("LabelSettings_ggpap")
+horizontal_alignment = 1
+autowrap_mode = 3
