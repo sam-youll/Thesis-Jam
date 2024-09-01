@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bffvhpfwm7w6o"
+path="res://.godot/imported/rhythmgame_Player 1 _8.ogg-e748cefa65595d5d3fc8a30926af43f1.oggvorbisstr"
+
+[deps]
+
+source_file="res://AntagonisticComposition_FMOD/Assets/rhythmgame_Player 1 _8.ogg"
+dest_files=["res://.godot/imported/rhythmgame_Player 1 _8.ogg-e748cefa65595d5d3fc8a30926af43f1.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
