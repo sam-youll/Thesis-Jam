@@ -648,6 +648,12 @@ horizontal_alignment = 1
 [node name="PlayerOneEventEmitter" type="FmodEventEmitter2D" parent="Conductor"]
 event_name = "event:/P1"
 event_guid = "{a21625d1-79a8-45ab-9bc3-7d31046b2aa8}"
+event_parameter/Chord/id = -7006970604365732943
+event_parameter/Chord/value = 0.0
+event_parameter/Chord/min_value = 0.0
+event_parameter/Chord/max_value = 2.0
+event_parameter/Chord/default_value = 0.0
+event_parameter/Chord/variant_type = 3
 
 [node name="PlayerTwoEventEmitter" type="FmodEventEmitter2D" parent="Conductor"]
 event_name = "event:/P2"

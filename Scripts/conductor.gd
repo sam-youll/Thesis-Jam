@@ -31,6 +31,9 @@ var beat_time: float = 0
 var recording_timer: float = 0
 var beats_left: int = 16
 
+var chord_bars: int = 0
+var chord: int = 0
+
 var test_beatmap = [.5,1,.25,.25,.5,1]
 var beatmap_index = 0
 # array of floats showing time since measure start for each beat
@@ -121,6 +124,18 @@ func _on_backing_track_emitter_timeline_beat(params: Dictionary) -> void:
 	beat = params.beat
 	#spawn_circle()
 	beat_time = 0
+	
+	if beat == 1:
+		chord_bars += 1
+	if chord_bars == 2:
+		chord_bars = 0
+		if chord == 0:
+			chord = 1
+		elif chord == 1:
+			chord = 0
+		print(chord)
+		event_emitter["event_parameter/Chord/value"] = chord
+		player_two_event_emitter["event_parameter/Chord/value"] = chord
 	
 	match state:
 		State.GOTORECORD:
