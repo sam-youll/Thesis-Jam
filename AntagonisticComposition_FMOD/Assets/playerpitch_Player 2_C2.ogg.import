@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://c2e7a4y6co8aw"
+path="res://.godot/imported/playerpitch_Player 2_C2.ogg-64a6a42788129f2feeec7213cff54ff1.oggvorbisstr"
+
+[deps]
+
+source_file="res://AntagonisticComposition_FMOD/Assets/playerpitch_Player 2_C2.ogg"
+dest_files=["res://.godot/imported/playerpitch_Player 2_C2.ogg-64a6a42788129f2feeec7213cff54ff1.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
