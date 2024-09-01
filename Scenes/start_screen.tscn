@@ -18,27 +18,28 @@ scale = Vector2(1.9714, 1.99074)
 texture = ExtResource("1_04lxm")
 
 [node name="Gerald" type="Sprite2D" parent="."]
-position = Vector2(585, 330)
+position = Vector2(594, 369)
 scale = Vector2(2.595, 2.595)
 texture = ExtResource("1_12vtf")
 
 [node name="Title" type="Label" parent="."]
-offset_left = 136.0
-offset_top = 85.0
-offset_right = 2409.0
-offset_bottom = 846.0
+offset_left = 157.0
+offset_top = 31.0
+offset_right = 2430.0
+offset_bottom = 792.0
 scale = Vector2(0.385, 0.385)
-text = "ANTAGONISTIC COMPOSITION"
+text = "ANTAGONISTIC COMPOSITION:
+dueling geralds"
 label_settings = SubResource("LabelSettings_ggpap")
 horizontal_alignment = 1
 autowrap_mode = 3
 
 [node name="bottom text" type="Label" parent="Title"]
 layout_mode = 0
-offset_left = 737.662
-offset_top = 1015.58
-offset_right = 3010.66
-offset_bottom = 1776.58
+offset_left = 722.078
+offset_top = 1189.61
+offset_right = 2995.08
+offset_bottom = 1950.61
 scale = Vector2(0.385, 0.385)
 text = "featuring gerald 1
 and gerald 2
