@@ -21,9 +21,9 @@ func _process(delta: float) -> void:
 
 
 
-func _on_player_event_emitter_started() -> void:
+func _on_player_one_event_emitter_started() -> void:
 	frame = 1
 
 
-func _on_player_event_emitter_stopped() -> void:
+func _on_player_one_event_emitter_stopped() -> void:
 	frame = 0

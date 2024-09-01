@@ -107,6 +107,10 @@ position = Vector2(410, 338)
 scale = Vector2(2, 2)
 script = null
 
+[connection signal="started" from="Conductor/PlayerOneEventEmitter" to="Gerald" method="_on_player_one_event_emitter_started"]
+[connection signal="stopped" from="Conductor/PlayerOneEventEmitter" to="Gerald" method="_on_player_one_event_emitter_stopped"]
+[connection signal="started" from="Conductor/PlayerTwoEventEmitter" to="Gerald2" method="_on_player_two_event_emitter_started"]
+[connection signal="stopped" from="Conductor/PlayerTwoEventEmitter" to="Gerald2" method="_on_player_two_event_emitter_stopped"]
 [connection signal="started" from="Conductor/BackingTrackEmitter" to="Conductor" method="_on_backing_track_emitter_started"]
 [connection signal="timeline_beat" from="Conductor/BackingTrackEmitter" to="Conductor" method="_on_backing_track_emitter_timeline_beat"]
 [connection signal="timeout" from="Conductor/BeatTimer" to="Conductor" method="_on_timer_timeout"]
