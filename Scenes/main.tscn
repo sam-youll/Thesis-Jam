@@ -693,5 +693,11 @@ scale = Vector2(0.367604, 0.382593)
 sprite_frames = SubResource("SpriteFrames_6qmlb")
 frame_progress = 0.298552
 
+[connection signal="started" from="Conductor/PlayerOneEventEmitter" to="Gerald" method="_on_player_one_event_emitter_started"]
+[connection signal="stopped" from="Conductor/PlayerOneEventEmitter" to="Gerald" method="_on_player_one_event_emitter_stopped"]
+[connection signal="started" from="Conductor/PlayerTwoEventEmitter" to="Gerald2" method="_on_player_two_event_emitter_started"]
+[connection signal="stopped" from="Conductor/PlayerTwoEventEmitter" to="Gerald2" method="_on_player_two_event_emitter_stopped"]
+[connection signal="started" from="Conductor/BackingTrackEmitter" to="Conductor" method="_on_backing_track_emitter_started"]
+[connection signal="timeline_beat" from="Conductor/BackingTrackEmitter" to="Conductor" method="_on_backing_track_emitter_timeline_beat"]
 [connection signal="timeout" from="Conductor/BeatTimer" to="Conductor" method="_on_timer_timeout"]
 [connection signal="timeout" from="Conductor/TransitionTimer" to="Conductor" method="_on_transition_timer_timeout"]
