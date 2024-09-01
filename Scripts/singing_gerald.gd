@@ -8,10 +8,7 @@ func _ready() -> void:
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-@warning_ignore("unused_parameter")
 func _process(delta: float) -> void:
-	if Input.is_action_just_pressed("hit") and get_scale() == Vector2(1,1):
-		my_scale = 2
 		
 	if my_scale > 1:
 		my_scale -= .1
@@ -19,11 +16,14 @@ func _process(delta: float) -> void:
 	scale = (Vector2(my_scale, my_scale))
 
 
-
-
 func _on_player_one_event_emitter_started() -> void:
+	my_scale = 2
 	frame = 1
 
 
 func _on_player_one_event_emitter_stopped() -> void:
 	frame = 0
+
+
+func _on_player_one_event_emitter_restarted() -> void:
+	my_scale = 2
