@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://b8kv86mjkbx8c"]
+[gd_scene load_steps=157 format=3 uid="uid://b8kv86mjkbx8c"]
 
 [ext_resource type="Texture2D" uid="uid://7lr4m4u0ol8d" path="res://Assets/Sprites/bg thesis jaaaaaaaaaaam.png" id="1_k2ehb"]
 [ext_resource type="Script" path="res://Scripts/conductor.gd" id="1_xv1lr"]
@@ -7,6 +7,149 @@
 [ext_resource type="Script" path="res://Scripts/singing_gerald.gd" id="4_mjd3p"]
 [ext_resource type="Script" path="res://Scripts/singing_gerald_p_2.gd" id="5_law3p"]
 [ext_resource type="PackedScene" uid="uid://de71vbnigh33i" path="res://Scenes/circle.tscn" id="6_aiapd"]
+[ext_resource type="Texture2D" uid="uid://ds3xgb3sob5g0" path="res://Assets/Sprites/confetti/gerald_confetti_00000.png" id="8_i6bb1"]
+[ext_resource type="Texture2D" uid="uid://ibt7shw8nsmu" path="res://Assets/Sprites/confetti/gerald_confetti_00001.png" id="9_i3n31"]
+[ext_resource type="Texture2D" uid="uid://bif163ngsxw7k" path="res://Assets/Sprites/confetti/gerald_confetti_00002.png" id="10_tqtoc"]
+[ext_resource type="Texture2D" uid="uid://d1w1l1653of44" path="res://Assets/Sprites/confetti/gerald_confetti_00003.png" id="11_d5ote"]
+[ext_resource type="Texture2D" uid="uid://bno03le4d7un2" path="res://Assets/Sprites/confetti/gerald_confetti_00004.png" id="12_75ys5"]
+[ext_resource type="Texture2D" uid="uid://cam174knlynvp" path="res://Assets/Sprites/confetti/gerald_confetti_00005.png" id="13_l36y1"]
+[ext_resource type="Texture2D" uid="uid://b4boxgvrorhdu" path="res://Assets/Sprites/confetti/gerald_confetti_00006.png" id="14_rqhmq"]
+[ext_resource type="Texture2D" uid="uid://kgwp72k6nocn" path="res://Assets/Sprites/confetti/gerald_confetti_00007.png" id="15_jxbf6"]
+[ext_resource type="Texture2D" uid="uid://dmuj8ni3jlj0p" path="res://Assets/Sprites/confetti/gerald_confetti_00008.png" id="16_my140"]
+[ext_resource type="Texture2D" uid="uid://cm1mff0drr2rd" path="res://Assets/Sprites/confetti/gerald_confetti_00009.png" id="17_ry7qs"]
+[ext_resource type="Texture2D" uid="uid://7d0sggyljefh" path="res://Assets/Sprites/confetti/gerald_confetti_00010.png" id="18_hgtte"]
+[ext_resource type="Texture2D" uid="uid://dntsg3soltjrh" path="res://Assets/Sprites/confetti/gerald_confetti_00011.png" id="19_k0tol"]
+[ext_resource type="Texture2D" uid="uid://bdesvtffmcul1" path="res://Assets/Sprites/confetti/gerald_confetti_00012.png" id="20_ofvlm"]
+[ext_resource type="Texture2D" uid="uid://u21ebe677hxk" path="res://Assets/Sprites/confetti/gerald_confetti_00013.png" id="21_ux43y"]
+[ext_resource type="Texture2D" uid="uid://djfmosm8bfvqq" path="res://Assets/Sprites/confetti/gerald_confetti_00014.png" id="22_5rnry"]
+[ext_resource type="Texture2D" uid="uid://dxj51mivatxm4" path="res://Assets/Sprites/confetti/gerald_confetti_00015.png" id="23_54fuo"]
+[ext_resource type="Texture2D" uid="uid://ct4loahdml3ym" path="res://Assets/Sprites/confetti/gerald_confetti_00016.png" id="24_8mds8"]
+[ext_resource type="Texture2D" uid="uid://c1lwoy37u7phw" path="res://Assets/Sprites/confetti/gerald_confetti_00017.png" id="25_wlnm7"]
+[ext_resource type="Texture2D" uid="uid://dsumydehmreh4" path="res://Assets/Sprites/confetti/gerald_confetti_00018.png" id="26_frd71"]
+[ext_resource type="Texture2D" uid="uid://bmt1sjjvgd4rq" path="res://Assets/Sprites/confetti/gerald_confetti_00019.png" id="27_1jyr6"]
+[ext_resource type="Texture2D" uid="uid://dhhmgbyev0627" path="res://Assets/Sprites/confetti/gerald_confetti_00020.png" id="28_qad0s"]
+[ext_resource type="Texture2D" uid="uid://dyfcyuxqiowmi" path="res://Assets/Sprites/confetti/gerald_confetti_00021.png" id="29_hpbd4"]
+[ext_resource type="Texture2D" uid="uid://css4tkkoulnvp" path="res://Assets/Sprites/confetti/gerald_confetti_00022.png" id="30_603si"]
+[ext_resource type="Texture2D" uid="uid://h3q1pc8wok5h" path="res://Assets/Sprites/confetti/gerald_confetti_00023.png" id="31_qalpy"]
+[ext_resource type="Texture2D" uid="uid://db8lkdbqakavn" path="res://Assets/Sprites/confetti/gerald_confetti_00024.png" id="32_cwqc7"]
+[ext_resource type="Texture2D" uid="uid://cb1jlxxjc7d2x" path="res://Assets/Sprites/confetti/gerald_confetti_00025.png" id="33_ygdnf"]
+[ext_resource type="Texture2D" uid="uid://dykwerhb1lnx3" path="res://Assets/Sprites/confetti/gerald_confetti_00026.png" id="34_oa024"]
+[ext_resource type="Texture2D" uid="uid://bgjehlo4v7qf" path="res://Assets/Sprites/confetti/gerald_confetti_00027.png" id="35_bngh7"]
+[ext_resource type="Texture2D" uid="uid://qa0oqqut7mb3" path="res://Assets/Sprites/confetti/gerald_confetti_00028.png" id="36_g65vj"]
+[ext_resource type="Texture2D" uid="uid://dsc2apcfxuw7m" path="res://Assets/Sprites/confetti/gerald_confetti_00029.png" id="37_mwf5n"]
+[ext_resource type="Texture2D" uid="uid://dr504k57me7uj" path="res://Assets/Sprites/confetti/gerald_confetti_00030.png" id="38_myvjj"]
+[ext_resource type="Texture2D" uid="uid://hkbxee0iycfv" path="res://Assets/Sprites/confetti/gerald_confetti_00031.png" id="39_d7t0h"]
+[ext_resource type="Texture2D" uid="uid://cnkcpca1jk51v" path="res://Assets/Sprites/confetti/gerald_confetti_00032.png" id="40_2enly"]
+[ext_resource type="Texture2D" uid="uid://dsqfnqgk5o0vm" path="res://Assets/Sprites/confetti/gerald_confetti_00033.png" id="41_4l7ey"]
+[ext_resource type="Texture2D" uid="uid://bdvsw7noh0mtv" path="res://Assets/Sprites/confetti/gerald_confetti_00034.png" id="42_sqafu"]
+[ext_resource type="Texture2D" uid="uid://cxdqmnfda3a5h" path="res://Assets/Sprites/confetti/gerald_confetti_00035.png" id="43_hlwti"]
+[ext_resource type="Texture2D" uid="uid://3w058rrkyarv" path="res://Assets/Sprites/confetti/gerald_confetti_00036.png" id="44_gysxx"]
+[ext_resource type="Texture2D" uid="uid://cgjmdmq6wdipw" path="res://Assets/Sprites/confetti/gerald_confetti_00037.png" id="45_72t7t"]
+[ext_resource type="Texture2D" uid="uid://bp8li0cjljc55" path="res://Assets/Sprites/confetti/gerald_confetti_00038.png" id="46_jnu0w"]
+[ext_resource type="Texture2D" uid="uid://does0ikyx51xv" path="res://Assets/Sprites/confetti/gerald_confetti_00039.png" id="47_1c6da"]
+[ext_resource type="Texture2D" uid="uid://bvd4sli6fgnuu" path="res://Assets/Sprites/confetti/gerald_confetti_00040.png" id="48_vfvbg"]
+[ext_resource type="Texture2D" uid="uid://yrl0akcg8lac" path="res://Assets/Sprites/confetti/gerald_confetti_00041.png" id="49_mnrgu"]
+[ext_resource type="Texture2D" uid="uid://bkbq8mnfx2r5e" path="res://Assets/Sprites/confetti/gerald_confetti_00042.png" id="50_gmiwb"]
+[ext_resource type="Texture2D" uid="uid://767t7qld54e2" path="res://Assets/Sprites/confetti/gerald_confetti_00043.png" id="51_0mxcl"]
+[ext_resource type="Texture2D" uid="uid://c0jut8wi2e3cp" path="res://Assets/Sprites/confetti/gerald_confetti_00044.png" id="52_44pn6"]
+[ext_resource type="Texture2D" uid="uid://dsjuugv2cluhb" path="res://Assets/Sprites/confetti/gerald_confetti_00045.png" id="53_blhj3"]
+[ext_resource type="Texture2D" uid="uid://fybffule7xwa" path="res://Assets/Sprites/confetti/gerald_confetti_00046.png" id="54_4lnj1"]
+[ext_resource type="Texture2D" uid="uid://dvojbqabqjfax" path="res://Assets/Sprites/confetti/gerald_confetti_00047.png" id="55_sj02t"]
+[ext_resource type="Texture2D" uid="uid://d1a4p30dh30vt" path="res://Assets/Sprites/confetti/gerald_confetti_00048.png" id="56_qrsf0"]
+[ext_resource type="Texture2D" uid="uid://2vjw5hqkibtn" path="res://Assets/Sprites/confetti/gerald_confetti_00049.png" id="57_ghy7t"]
+[ext_resource type="Texture2D" uid="uid://xh8tytb06geg" path="res://Assets/Sprites/confetti/gerald_confetti_00050.png" id="58_ffn1s"]
+[ext_resource type="Texture2D" uid="uid://o1oxws818g7x" path="res://Assets/Sprites/confetti/gerald_confetti_00051.png" id="59_7848i"]
+[ext_resource type="Texture2D" uid="uid://dof2uudflyrm4" path="res://Assets/Sprites/confetti/gerald_confetti_00052.png" id="60_j801q"]
+[ext_resource type="Texture2D" uid="uid://nlev275w0yi8" path="res://Assets/Sprites/confetti/gerald_confetti_00053.png" id="61_1b0ts"]
+[ext_resource type="Texture2D" uid="uid://c5gn54cf8xf2p" path="res://Assets/Sprites/confetti/gerald_confetti_00054.png" id="62_r5ssa"]
+[ext_resource type="Texture2D" uid="uid://bay5g0yby7ym" path="res://Assets/Sprites/confetti/gerald_confetti_00055.png" id="63_xr7by"]
+[ext_resource type="Texture2D" uid="uid://djlpymsxa2brx" path="res://Assets/Sprites/confetti/gerald_confetti_00056.png" id="64_a0m1v"]
+[ext_resource type="Texture2D" uid="uid://bmgh17amlr3h5" path="res://Assets/Sprites/confetti/gerald_confetti_00057.png" id="65_57cag"]
+[ext_resource type="Texture2D" uid="uid://ctly0fm6as3je" path="res://Assets/Sprites/confetti/gerald_confetti_00058.png" id="66_g5qpe"]
+[ext_resource type="Texture2D" uid="uid://dif7sxlffj0e0" path="res://Assets/Sprites/confetti/gerald_confetti_00059.png" id="67_yheyi"]
+[ext_resource type="Texture2D" uid="uid://b8pmmulqi3rnh" path="res://Assets/Sprites/confetti/gerald_confetti_00060.png" id="68_tcpft"]
+[ext_resource type="Texture2D" uid="uid://b6mdi8dcpbb4f" path="res://Assets/Sprites/confetti/gerald_confetti_00061.png" id="69_8uidh"]
+[ext_resource type="Texture2D" uid="uid://bk55aa2vw3ar3" path="res://Assets/Sprites/confetti/gerald_confetti_00062.png" id="70_ddxm1"]
+[ext_resource type="Texture2D" uid="uid://bik1ui7pfjui8" path="res://Assets/Sprites/confetti/gerald_confetti_00063.png" id="71_ve5ke"]
+[ext_resource type="Texture2D" uid="uid://cc8dsa2o26a1u" path="res://Assets/Sprites/confetti/gerald_confetti_00064.png" id="72_oq74n"]
+[ext_resource type="Texture2D" uid="uid://dtfdglfwusgrl" path="res://Assets/Sprites/confetti/gerald_confetti_00065.png" id="73_4gorf"]
+[ext_resource type="Texture2D" uid="uid://nyiq04aby307" path="res://Assets/Sprites/confetti/gerald_confetti_00066.png" id="74_cwwy1"]
+[ext_resource type="Texture2D" uid="uid://bqb0h26if5ij0" path="res://Assets/Sprites/confetti/gerald_confetti_00067.png" id="75_6ckdt"]
+[ext_resource type="Texture2D" uid="uid://drwj1e4vo6jn1" path="res://Assets/Sprites/confetti/gerald_confetti_00068.png" id="76_b5dri"]
+[ext_resource type="Texture2D" uid="uid://cwphiayil2u2a" path="res://Assets/Sprites/confetti/gerald_confetti_00069.png" id="77_of34j"]
+[ext_resource type="Texture2D" uid="uid://pi5pmtntxeh0" path="res://Assets/Sprites/confetti/gerald_confetti_00070.png" id="78_bi6kd"]
+[ext_resource type="Texture2D" uid="uid://kni5a8h5h5vo" path="res://Assets/Sprites/confetti/gerald_confetti_00071.png" id="79_ywc1x"]
+[ext_resource type="Texture2D" uid="uid://bl5isah1jg1ig" path="res://Assets/Sprites/confetti/gerald_confetti_00072.png" id="80_l7fas"]
+[ext_resource type="Texture2D" uid="uid://citsruvimnagv" path="res://Assets/Sprites/confetti/gerald_confetti_00073.png" id="81_4ymkf"]
+[ext_resource type="Texture2D" uid="uid://w7lwqutlg2p8" path="res://Assets/Sprites/confetti/gerald_confetti_00074.png" id="82_xlapy"]
+[ext_resource type="Texture2D" uid="uid://l4vddv8gr28d" path="res://Assets/Sprites/confetti/gerald_confetti_00075.png" id="83_rbio5"]
+[ext_resource type="Texture2D" uid="uid://bl24uhtfmmqjm" path="res://Assets/Sprites/confetti/gerald_confetti_00076.png" id="84_h27js"]
+[ext_resource type="Texture2D" uid="uid://dj82vpbcyjhie" path="res://Assets/Sprites/confetti/gerald_confetti_00077.png" id="85_g5r27"]
+[ext_resource type="Texture2D" uid="uid://dknn5bnhwg1a8" path="res://Assets/Sprites/confetti/gerald_confetti_00078.png" id="86_lsm5n"]
+[ext_resource type="Texture2D" uid="uid://dva4y7oolvvhb" path="res://Assets/Sprites/confetti/gerald_confetti_00079.png" id="87_crp0y"]
+[ext_resource type="Texture2D" uid="uid://dwb7qgv7v1ha0" path="res://Assets/Sprites/confetti/gerald_confetti_00080.png" id="88_2fyy2"]
+[ext_resource type="Texture2D" uid="uid://dw6mg8lj6qf7b" path="res://Assets/Sprites/confetti/gerald_confetti_00081.png" id="89_r3akm"]
+[ext_resource type="Texture2D" uid="uid://dh5fcmjq2dfkt" path="res://Assets/Sprites/confetti/gerald_confetti_00082.png" id="90_6y6a0"]
+[ext_resource type="Texture2D" uid="uid://cps2ipac5wl7h" path="res://Assets/Sprites/confetti/gerald_confetti_00083.png" id="91_xaqvj"]
+[ext_resource type="Texture2D" uid="uid://h2hp1ocuqmcr" path="res://Assets/Sprites/confetti/gerald_confetti_00084.png" id="92_4k8wf"]
+[ext_resource type="Texture2D" uid="uid://btc6esr3olwp" path="res://Assets/Sprites/confetti/gerald_confetti_00085.png" id="93_hp5ft"]
+[ext_resource type="Texture2D" uid="uid://ddwvs05eayeff" path="res://Assets/Sprites/confetti/gerald_confetti_00086.png" id="94_7iwdi"]
+[ext_resource type="Texture2D" uid="uid://dpibk2sobv540" path="res://Assets/Sprites/confetti/gerald_confetti_00087.png" id="95_cml06"]
+[ext_resource type="Texture2D" uid="uid://c3b18wd5d65t" path="res://Assets/Sprites/confetti/gerald_confetti_00088.png" id="96_pstwa"]
+[ext_resource type="Texture2D" uid="uid://c1fjm1akr5rw6" path="res://Assets/Sprites/confetti/gerald_confetti_00089.png" id="97_3dycn"]
+[ext_resource type="Texture2D" uid="uid://q52afjviitjn" path="res://Assets/Sprites/confetti/gerald_confetti_00090.png" id="98_m8up1"]
+[ext_resource type="Texture2D" uid="uid://bhew5v7s1xgqa" path="res://Assets/Sprites/confetti/gerald_confetti_00091.png" id="99_lard6"]
+[ext_resource type="Texture2D" uid="uid://dlhg432aupdv7" path="res://Assets/Sprites/confetti/gerald_confetti_00092.png" id="100_neurf"]
+[ext_resource type="Texture2D" uid="uid://b7kb4e66ec5qg" path="res://Assets/Sprites/confetti/gerald_confetti_00093.png" id="101_q0jav"]
+[ext_resource type="Texture2D" uid="uid://c4fi62y4lxsa7" path="res://Assets/Sprites/confetti/gerald_confetti_00094.png" id="102_i52kx"]
+[ext_resource type="Texture2D" uid="uid://dbkfsanux0kxc" path="res://Assets/Sprites/confetti/gerald_confetti_00095.png" id="103_bx6nb"]
+[ext_resource type="Texture2D" uid="uid://bhs020ou7p01k" path="res://Assets/Sprites/confetti/gerald_confetti_00096.png" id="104_2cgim"]
+[ext_resource type="Texture2D" uid="uid://b7ndnp2h8hebo" path="res://Assets/Sprites/confetti/gerald_confetti_00097.png" id="105_wisfm"]
+[ext_resource type="Texture2D" uid="uid://b32n45uent3ek" path="res://Assets/Sprites/confetti/gerald_confetti_00098.png" id="106_j5vun"]
+[ext_resource type="Texture2D" uid="uid://5683wt45osfd" path="res://Assets/Sprites/confetti/gerald_confetti_00099.png" id="107_fkpiq"]
+[ext_resource type="Texture2D" uid="uid://b2im6dgm8cyaq" path="res://Assets/Sprites/confetti/gerald_confetti_00100.png" id="108_k2stj"]
+[ext_resource type="Texture2D" uid="uid://bv7rw3b2caq7f" path="res://Assets/Sprites/confetti/gerald_confetti_00101.png" id="109_s7tgu"]
+[ext_resource type="Texture2D" uid="uid://chkoxjajfn2ak" path="res://Assets/Sprites/confetti/gerald_confetti_00102.png" id="110_4v1v5"]
+[ext_resource type="Texture2D" uid="uid://fglpbn58k53a" path="res://Assets/Sprites/confetti/gerald_confetti_00103.png" id="111_5malp"]
+[ext_resource type="Texture2D" uid="uid://bpjtpw8htgw1s" path="res://Assets/Sprites/confetti/gerald_confetti_00104.png" id="112_wl3e6"]
+[ext_resource type="Texture2D" uid="uid://djsjtd2c6ml8i" path="res://Assets/Sprites/confetti/gerald_confetti_00105.png" id="113_wmb5k"]
+[ext_resource type="Texture2D" uid="uid://cpey7vh6elqln" path="res://Assets/Sprites/confetti/gerald_confetti_00106.png" id="114_bkyv2"]
+[ext_resource type="Texture2D" uid="uid://c0042pq81gn7g" path="res://Assets/Sprites/confetti/gerald_confetti_00107.png" id="115_ljefx"]
+[ext_resource type="Texture2D" uid="uid://buabex5lby7fi" path="res://Assets/Sprites/confetti/gerald_confetti_00108.png" id="116_x88ue"]
+[ext_resource type="Texture2D" uid="uid://b61v4ct8qjeem" path="res://Assets/Sprites/confetti/gerald_confetti_00109.png" id="117_i1hvi"]
+[ext_resource type="Texture2D" uid="uid://ddda0eh2iiulq" path="res://Assets/Sprites/confetti/gerald_confetti_00110.png" id="118_63bmf"]
+[ext_resource type="Texture2D" uid="uid://u63031tgbhyn" path="res://Assets/Sprites/confetti/gerald_confetti_00111.png" id="119_dypcy"]
+[ext_resource type="Texture2D" uid="uid://dl5hplcqheq2k" path="res://Assets/Sprites/confetti/gerald_confetti_00112.png" id="120_kxt7h"]
+[ext_resource type="Texture2D" uid="uid://cr8b5u5tkhem8" path="res://Assets/Sprites/confetti/gerald_confetti_00113.png" id="121_cthrk"]
+[ext_resource type="Texture2D" uid="uid://dk6qyv140hu5w" path="res://Assets/Sprites/confetti/gerald_confetti_00114.png" id="122_tfkjg"]
+[ext_resource type="Texture2D" uid="uid://dlq8fq8l4a2k8" path="res://Assets/Sprites/confetti/gerald_confetti_00115.png" id="123_gpudp"]
+[ext_resource type="Texture2D" uid="uid://dg2iu1yuw7y75" path="res://Assets/Sprites/confetti/gerald_confetti_00116.png" id="124_1orla"]
+[ext_resource type="Texture2D" uid="uid://baeqalwpm1iav" path="res://Assets/Sprites/confetti/gerald_confetti_00117.png" id="125_ii1er"]
+[ext_resource type="Texture2D" uid="uid://bkt2xflkmrs7i" path="res://Assets/Sprites/confetti/gerald_confetti_00118.png" id="126_3wvyu"]
+[ext_resource type="Texture2D" uid="uid://d05ba0y8frld6" path="res://Assets/Sprites/confetti/gerald_confetti_00119.png" id="127_me68l"]
+[ext_resource type="Texture2D" uid="uid://dd5laicn1gryh" path="res://Assets/Sprites/confetti/gerald_confetti_00120.png" id="128_lyi6j"]
+[ext_resource type="Texture2D" uid="uid://c03fnsxaf0wr2" path="res://Assets/Sprites/confetti/gerald_confetti_00121.png" id="129_xy3cl"]
+[ext_resource type="Texture2D" uid="uid://bahpf0td64nu4" path="res://Assets/Sprites/confetti/gerald_confetti_00122.png" id="130_lgp3r"]
+[ext_resource type="Texture2D" uid="uid://d15673wc1uuk6" path="res://Assets/Sprites/confetti/gerald_confetti_00123.png" id="131_lrsge"]
+[ext_resource type="Texture2D" uid="uid://lpcocmcwog4y" path="res://Assets/Sprites/confetti/gerald_confetti_00124.png" id="132_3i0tf"]
+[ext_resource type="Texture2D" uid="uid://qjcgoam684v0" path="res://Assets/Sprites/confetti/gerald_confetti_00125.png" id="133_56506"]
+[ext_resource type="Texture2D" uid="uid://dxw43d7gkf74y" path="res://Assets/Sprites/confetti/gerald_confetti_00126.png" id="134_wpor1"]
+[ext_resource type="Texture2D" uid="uid://dfa1veph5h7lm" path="res://Assets/Sprites/confetti/gerald_confetti_00127.png" id="135_yt22d"]
+[ext_resource type="Texture2D" uid="uid://c3o7a16ncltje" path="res://Assets/Sprites/confetti/gerald_confetti_00128.png" id="136_34o55"]
+[ext_resource type="Texture2D" uid="uid://1h2vndfev4r0" path="res://Assets/Sprites/confetti/gerald_confetti_00129.png" id="137_j3mut"]
+[ext_resource type="Texture2D" uid="uid://cl5qt078hs63w" path="res://Assets/Sprites/confetti/gerald_confetti_00130.png" id="138_cuo7d"]
+[ext_resource type="Texture2D" uid="uid://cbw5412no1yl2" path="res://Assets/Sprites/confetti/gerald_confetti_00131.png" id="139_pnf5d"]
+[ext_resource type="Texture2D" uid="uid://ibx2eqrvjgqe" path="res://Assets/Sprites/confetti/gerald_confetti_00132.png" id="140_k03y1"]
+[ext_resource type="Texture2D" uid="uid://c6vs2nx21px3u" path="res://Assets/Sprites/confetti/gerald_confetti_00133.png" id="141_dv61o"]
+[ext_resource type="Texture2D" uid="uid://d0tf7vi44pgpl" path="res://Assets/Sprites/confetti/gerald_confetti_00134.png" id="142_p025k"]
+[ext_resource type="Texture2D" uid="uid://ciwn4q1o4eteb" path="res://Assets/Sprites/confetti/gerald_confetti_00135.png" id="143_3712u"]
+[ext_resource type="Texture2D" uid="uid://cu6ifb65wuj0r" path="res://Assets/Sprites/confetti/gerald_confetti_00136.png" id="144_mlwu6"]
+[ext_resource type="Texture2D" uid="uid://c2skg7nus35t7" path="res://Assets/Sprites/confetti/gerald_confetti_00137.png" id="145_yu8vb"]
+[ext_resource type="Texture2D" uid="uid://b727ib40pn6sk" path="res://Assets/Sprites/confetti/gerald_confetti_00138.png" id="146_e0nng"]
+[ext_resource type="Texture2D" uid="uid://ccrkasek8kcoi" path="res://Assets/Sprites/confetti/gerald_confetti_00139.png" id="147_hgi74"]
+[ext_resource type="Texture2D" uid="uid://cawvxqy6yrwad" path="res://Assets/Sprites/confetti/gerald_confetti_00140.png" id="148_sliv0"]
+[ext_resource type="Texture2D" uid="uid://bf6v3t8s468da" path="res://Assets/Sprites/confetti/gerald_confetti_00141.png" id="149_dd8jo"]
+[ext_resource type="Texture2D" uid="uid://dv8f1d2i8vkc4" path="res://Assets/Sprites/confetti/gerald_confetti_00142.png" id="150_kw5o0"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_0mrrj"]
 font = ExtResource("3_gbp15")
@@ -36,6 +179,443 @@ animations = [{
 "loop": true,
 "name": &"default",
 "speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_6qmlb"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_i6bb1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_i3n31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_tqtoc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_d5ote")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_75ys5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_l36y1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_rqhmq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_jxbf6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_my140")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_ry7qs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_hgtte")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_k0tol")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_ofvlm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_ux43y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_5rnry")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_54fuo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_8mds8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_wlnm7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_frd71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_1jyr6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_qad0s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_hpbd4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_603si")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_qalpy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_cwqc7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_ygdnf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_oa024")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_bngh7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_g65vj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_mwf5n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_myvjj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_d7t0h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_2enly")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_4l7ey")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_sqafu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_hlwti")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_gysxx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_72t7t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_jnu0w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_1c6da")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_vfvbg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_mnrgu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_gmiwb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_0mxcl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_44pn6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_blhj3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_4lnj1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_sj02t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_qrsf0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_ghy7t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_ffn1s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_7848i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_j801q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_1b0ts")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_r5ssa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_xr7by")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_a0m1v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_57cag")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_g5qpe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_yheyi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_tcpft")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_8uidh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_ddxm1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_ve5ke")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_oq74n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_4gorf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_cwwy1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_6ckdt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_b5dri")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_of34j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_bi6kd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_ywc1x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_l7fas")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_4ymkf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_xlapy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_rbio5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_h27js")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_g5r27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_lsm5n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_crp0y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_2fyy2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_r3akm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90_6y6a0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91_xaqvj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_4k8wf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93_hp5ft")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94_7iwdi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95_cml06")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96_pstwa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97_3dycn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98_m8up1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99_lard6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100_neurf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101_q0jav")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102_i52kx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103_bx6nb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104_2cgim")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105_wisfm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106_j5vun")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107_fkpiq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108_k2stj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109_s7tgu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110_4v1v5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111_5malp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112_wl3e6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113_wmb5k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114_bkyv2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115_ljefx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116_x88ue")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117_i1hvi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118_63bmf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119_dypcy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120_kxt7h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("121_cthrk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("122_tfkjg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123_gpudp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124_1orla")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125_ii1er")
+}, {
+"duration": 1.0,
+"texture": ExtResource("126_3wvyu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("127_me68l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("128_lyi6j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("129_xy3cl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("130_lgp3r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("131_lrsge")
+}, {
+"duration": 1.0,
+"texture": ExtResource("132_3i0tf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("133_56506")
+}, {
+"duration": 1.0,
+"texture": ExtResource("134_wpor1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("135_yt22d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("136_34o55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("137_j3mut")
+}, {
+"duration": 1.0,
+"texture": ExtResource("138_cuo7d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("139_pnf5d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("140_k03y1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("141_dv61o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("142_p025k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("143_3712u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("144_mlwu6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("145_yu8vb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("146_e0nng")
+}, {
+"duration": 1.0,
+"texture": ExtResource("147_hgi74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("148_sliv0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("149_dd8jo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("150_kw5o0")
+}],
+"loop": true,
+"name": &"default",
+"speed": 30.0
 }]
 
 [node name="Main" type="Node2D"]
@@ -107,7 +687,11 @@ position = Vector2(410, 338)
 scale = Vector2(2, 2)
 script = null
 
-[connection signal="started" from="Conductor/BackingTrackEmitter" to="Conductor" method="_on_backing_track_emitter_started"]
-[connection signal="timeline_beat" from="Conductor/BackingTrackEmitter" to="Conductor" method="_on_backing_track_emitter_timeline_beat"]
+[node name="GeraldConfetti" type="AnimatedSprite2D" parent="."]
+position = Vector2(617, 295)
+scale = Vector2(0.367604, 0.382593)
+sprite_frames = SubResource("SpriteFrames_6qmlb")
+frame_progress = 0.298552
+
 [connection signal="timeout" from="Conductor/BeatTimer" to="Conductor" method="_on_timer_timeout"]
 [connection signal="timeout" from="Conductor/TransitionTimer" to="Conductor" method="_on_transition_timer_timeout"]
