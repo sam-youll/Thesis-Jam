@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{764b0d7c-bbf9-429a-b43b-36427dfb96a1}">
+		<property name="color">
+			<value>Magenta</value>
+		</property>
 		<property name="assetPath">
 			<value>playerpitch_Player 2_E2.ogg</value>
 		</property>
