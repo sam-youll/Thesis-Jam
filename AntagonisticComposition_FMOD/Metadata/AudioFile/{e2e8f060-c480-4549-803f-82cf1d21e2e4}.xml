@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{e2e8f060-c480-4549-803f-82cf1d21e2e4}">
+		<property name="assetPath">
+			<value>playerpitch_Player 2_B2.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.0409791666666668</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{06a13875-4719-4b8f-87cf-c3669f4a47a6}</destination>
+		</relationship>
+	</object>
+</objects>
