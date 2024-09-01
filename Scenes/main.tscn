@@ -1,4 +1,4 @@
-[gd_scene load_steps=157 format=3 uid="uid://b8kv86mjkbx8c"]
+[gd_scene load_steps=158 format=3 uid="uid://b8kv86mjkbx8c"]
 
 [ext_resource type="Texture2D" uid="uid://7lr4m4u0ol8d" path="res://Assets/Sprites/bg thesis jaaaaaaaaaaam.png" id="1_k2ehb"]
 [ext_resource type="Script" path="res://Scripts/conductor.gd" id="1_xv1lr"]
@@ -158,6 +158,10 @@ font_size = 200
 [sub_resource type="LabelSettings" id="LabelSettings_3b4c3"]
 font = ExtResource("3_gbp15")
 font_size = 100
+
+[sub_resource type="LabelSettings" id="LabelSettings_w0jln"]
+font = ExtResource("3_gbp15")
+font_size = 70
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_yonxh"]
 atlas = ExtResource("3_gh7jo")
@@ -613,7 +617,7 @@ animations = [{
 "duration": 1.0,
 "texture": ExtResource("150_kw5o0")
 }],
-"loop": true,
+"loop": false,
 "name": &"default",
 "speed": 30.0
 }]
@@ -645,6 +649,15 @@ text = "1"
 label_settings = SubResource("LabelSettings_3b4c3")
 horizontal_alignment = 1
 
+[node name="RatingLabel" type="Label" parent="Conductor"]
+offset_left = 179.0
+offset_top = 308.0
+offset_right = 642.0
+offset_bottom = 496.0
+text = "GOOD"
+label_settings = SubResource("LabelSettings_w0jln")
+horizontal_alignment = 1
+
 [node name="PlayerOneEventEmitter" type="FmodEventEmitter2D" parent="Conductor"]
 event_name = "event:/P1"
 event_guid = "{a21625d1-79a8-45ab-9bc3-7d31046b2aa8}"
@@ -658,6 +671,12 @@ event_parameter/Chord/variant_type = 3
 [node name="PlayerTwoEventEmitter" type="FmodEventEmitter2D" parent="Conductor"]
 event_name = "event:/P2"
 event_guid = "{d6e9d130-f33d-4e94-a23f-73f022889b86}"
+event_parameter/Chord/id = -7006970604365732943
+event_parameter/Chord/value = 0.0
+event_parameter/Chord/min_value = 0.0
+event_parameter/Chord/max_value = 2.0
+event_parameter/Chord/default_value = 0.0
+event_parameter/Chord/variant_type = 3
 
 [node name="BackingTrackEmitter" type="FmodEventEmitter2D" parent="Conductor"]
 event_name = "event:/Backing_Track"
@@ -668,6 +687,8 @@ event_guid = "{ec2d33a0-ab6f-4624-90f2-338c05b9138d}"
 [node name="TransitionTimer" type="Timer" parent="Conductor"]
 
 [node name="FmodListener2D" type="FmodListener2D" parent="Conductor"]
+
+[node name="CircleHolder" type="Node" parent="Conductor"]
 
 [node name="Camera2D" type="Camera2D" parent="."]
 anchor_mode = 0
@@ -685,7 +706,8 @@ script = ExtResource("4_mjd3p")
 
 [node name="Gerald2" type="AnimatedSprite2D" parent="."]
 position = Vector2(817, 327)
-scale = Vector2(-1, 1)
+rotation = -3.14159
+scale = Vector2(1, -1)
 sprite_frames = SubResource("SpriteFrames_difpc")
 frame_progress = 0.326384
 script = ExtResource("5_law3p")
@@ -704,7 +726,7 @@ script = null
 position = Vector2(617, 295)
 scale = Vector2(0.367604, 0.382593)
 sprite_frames = SubResource("SpriteFrames_6qmlb")
-frame_progress = 0.733395
+frame_progress = 0.839356
 
 [connection signal="restarted" from="Conductor/PlayerOneEventEmitter" to="Gerald" method="_on_player_one_event_emitter_restarted"]
 [connection signal="started" from="Conductor/PlayerOneEventEmitter" to="Gerald" method="_on_player_one_event_emitter_started"]

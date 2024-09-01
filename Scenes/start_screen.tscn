@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://bl1at8nmh16kr"]
+[gd_scene load_steps=6 format=3 uid="uid://bl1at8nmh16kr"]
 
 [ext_resource type="Texture2D" uid="uid://7lr4m4u0ol8d" path="res://Assets/Sprites/bg thesis jaaaaaaaaaaam.png" id="1_04lxm"]
 [ext_resource type="Texture2D" uid="uid://c65td11osn7lr" path="res://Assets/Sprites/gerald.png" id="1_12vtf"]
+[ext_resource type="Script" path="res://Scenes/start_screen.gd" id="1_epqmm"]
 [ext_resource type="FontFile" uid="uid://bgp3biy1f05kw" path="res://Assets/Fonts/ALAGARD.TTF" id="3_bih4x"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_ggpap"]
@@ -9,6 +10,7 @@ font = ExtResource("3_bih4x")
 font_size = 200
 
 [node name="Start Screen" type="Node2D"]
+script = ExtResource("1_epqmm")
 
 [node name="BgThesisJaaaaaaaaaaam" type="Sprite2D" parent="."]
 position = Vector2(574.25, 322.5)
@@ -32,6 +34,7 @@ horizontal_alignment = 1
 autowrap_mode = 3
 
 [node name="bottom text" type="Label" parent="Title"]
+layout_mode = 0
 offset_left = 737.662
 offset_top = 1015.58
 offset_right = 3010.66
